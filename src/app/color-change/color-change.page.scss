@@ -1,0 +1,82 @@
+.container {
+  --background: linear-gradient(180deg, #0b1f5c, #00000049);
+}
+
+.content-wrapper {
+  margin-top: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rgb-card {
+  width: 100%;
+  max-width: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.range-group {
+  margin-bottom: 15px;
+}
+
+.range-group label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+ion-range {
+  width: 100%;
+  --bar-background: #ddd;
+  --bar-background-active: #000000;
+  --knob-background: #000000;
+  --pin-background: #000000;
+  padding: 0 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px; 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.botao {
+  border-radius: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.alterar {
+  --background: #000000;
+  --color: #ffffff;
+}
+
+.fundo {
+  --background: transparent;
+  --color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.voltarPagina {
+  --background: #000000;
+  --color: #ffffff;
+}
+
+.botao:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.4));
+}
+
+.botao:active {
+  transform: scale(0.97);
+}
